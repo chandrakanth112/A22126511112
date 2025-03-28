@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #000000, #ffffff);
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff6f61;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #ff6f61;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5);
+  }
+  
+  button {
+    background-color: #be8989ec;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e55b50;
+  }
+  
+  #response {
+    margin-top: 20px;
+    border: 1px solid #ffb6c1;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffe4e1;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .error {
+    color: #d9534f;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
